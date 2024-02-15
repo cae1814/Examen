@@ -14,12 +14,12 @@ namespace Examen
         public string Docente { get; set; }
 
         public override void Imprimir() {
-            Console.WriteLine("Nombre: "+this.Nombre);
-            Console.WriteLine("Cuenta: "+ NumeroCuenta);
-            Console.WriteLine("Correo: "+ Email);
-            Console.WriteLine("Asignatura: " + Nombre);
+            Console.WriteLine("Nombre del estudiante: "+this.Nombre);
+            Console.WriteLine("Numero de Cuenta: "+ NumeroCuenta);
+            Console.WriteLine("Correo electronico: "+ Email);
+            Console.WriteLine("Nombre de la clase: " + Nombre);
             Console.WriteLine("Horario: " + Horario);
-            Console.WriteLine("Docente: " + Docente);
+            Console.WriteLine("Nombre del Docente: " + Docente);
         }
     }
 }
