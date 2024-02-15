@@ -14,7 +14,7 @@ namespace Examen
         public string Docente { get; set; }
 
         public override void Imprimir() {
-            Console.WriteLine("Nombre del estudiante: "+this.Nombre);
+            Console.WriteLine("Nombre del estudiante: "+ Nombre_);
             Console.WriteLine("Numero de Cuenta: "+ NumeroCuenta);
             Console.WriteLine("Correo electronico: "+ Email);
             Console.WriteLine("Nombre de la clase: " + Nombre);

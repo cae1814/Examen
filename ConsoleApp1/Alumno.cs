@@ -8,7 +8,7 @@ namespace Examen
 {
     internal abstract class Alumno
     {
-        public string Nombre { get; set; }
+        public string Nombre_ { get; set; }
         public string NumeroCuenta { get; set; }
         public string Email { get; set; }
 
